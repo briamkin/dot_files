@@ -14,7 +14,6 @@ alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
-alias p='python'
 
 function gen() {
 buster generate --domain=http://127.0.0.1:2368
