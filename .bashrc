@@ -9,7 +9,7 @@ PS1='[\t] bk: '
 #Shortcuts for Python
 
 alias py='python'
-alias ip='ipython notebook'
+alias ip='ipython notebook --profile=briamkin'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
