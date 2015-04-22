@@ -4,7 +4,7 @@ export PATH=/usr/local/bin:/usr/local/share/python:$PATH
 export VISUAL=nano
 export EDITOR="$VISUAL"
 #Changing Prompt
-PS1='[\t] bk: '
+PS1='[\t] /${PWD##*/}/ bk: '
 
 #Shortcuts for Python
 
