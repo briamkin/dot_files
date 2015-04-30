@@ -1,6 +1,7 @@
 #.bash_profile / .bashrcX
 
 export PATH=/usr/local/bin:/usr/local/share/python:$PATH
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export VISUAL=nano
 export EDITOR="$VISUAL"
 #Changing Prompt
@@ -9,7 +10,7 @@ PS1='[\t] /${PWD##*/}/ bk: '
 #Shortcuts for Python
 
 alias py='python'
-alias ip='ipython notebook --profile=briamkin'
+alias ip='ipython notebook'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
